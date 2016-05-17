@@ -44,9 +44,9 @@ cross-platform.
 
 ###Q1. Python Version 2 or 3
 
-Python 3
 
->> Because it is up to date and I believe other platforms which are still using Python 2 will update soon.
+
+>> Python 3, because it is up to date and I believe other platforms which are still using Python 2 will update soon, like Apache.
 
 
 
@@ -54,6 +54,7 @@ Python 3
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
+>> Python 3.5.1
 >> Command line: python -V
 
  
