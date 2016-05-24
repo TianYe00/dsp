@@ -59,7 +59,8 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Vim
+>> Fast and stable.
 
 --
 
@@ -67,6 +68,9 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Vim and Spyder. 
+>> Vim is stable and compatible with all programming language.
+>> Vim has a lot of useful shortcuts, especially in the normal mode.
+>> I used the vimrc writen by [Amir Salihefendic](https://github.com/amix/vimrc).
 
  
