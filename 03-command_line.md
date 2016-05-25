@@ -27,7 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > `w`: who is logged on and what they are doing
 
-> > `at': execute programs at another time
+> > `at`: execute programs at another time
 
 > > `sudo`: become super user root
 
@@ -47,9 +47,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > > `ls`: lists all files in the directory that match the name.
+
 > > `ls -a`: Displays all files.
+
 > > `ls -l`: Displays the long format listing.
+
 > > `ls -lh`: Displays the long format listing and print their sizes in human readable format.
+
 > > `ls -lah`: use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
 
 ---
