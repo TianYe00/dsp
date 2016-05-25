@@ -28,7 +28,11 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`: lists all files in the directory that match the name.
+> > `ls -a`: Displays all files.
+> > `ls -l`: Displays the long format listing.
+> > `ls -lh`: Displays the long format listing and print their sizes in human readable format.
+> > `ls -lah`: 
 
 ---
 
@@ -44,7 +48,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > construct argument list(s) and execute utility
+> > find /path -type f -print | xargs rm
 
  
 
