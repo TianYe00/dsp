@@ -14,14 +14,23 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 > > `grep`: search for text in file
+
 > > `sort`: sort the content of files
+
 > > `wc`: word count
+
 > > `cut`: cut a part of a file
+
 > > `man`: help info
+
 > > `&`: execute programs in the background
+
 > > `w`: who is logged on and what they are doing
+
 > > `at': execute programs at another time
+
 > > `sudo`: become super user root
+
 > > `kill`: kill a process
 
 ---
