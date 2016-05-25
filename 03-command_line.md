@@ -13,7 +13,16 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `grep`: search for text in file
+> > `sort`: sort the content of files
+> > `wc`: word count
+> > `cut`: cut a part of a file
+> > `man`: help info
+> > `&`: execute programs in the background
+> > `w`: who is logged on and what they are doing
+> > `at': execute programs at another time
+> > `sudo`: become super user root
+> > `kill`: kill a process
 
 ---
 
@@ -32,7 +41,7 @@ What do the following commands do:
 > > `ls -a`: Displays all files.
 > > `ls -l`: Displays the long format listing.
 > > `ls -lh`: Displays the long format listing and print their sizes in human readable format.
-> > `ls -lah`: 
+> > `ls -lah`: use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
 
 ---
 
@@ -40,7 +49,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > -a -d -v -f -g
 
 ---
 
