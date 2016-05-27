@@ -43,7 +43,12 @@ a + b
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> `lambda` function is an anonymous function. It is used for create functions that are not bound to a name at runtime. 
+```python
+a = ['c', 'b', 'a', 'A', 'B']
+sorted(a, key = lambda x: x.lower())
+```
+
 
 ---
 
@@ -51,7 +56,9 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result >> of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a >> certain condition.
+
+
 
 ---
 
