@@ -54,7 +54,12 @@ What do the following commands do:
 
 > > `ls -lh`: Displays the long format listing and print their sizes in human readable format.
 
-> > `ls -lah`: use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes.
+> > `ls -lah`: Uses unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to three or less using base 2 for sizes and displays the long format listing and print their sizes in human readable format.
+
+> > `ls -t`: Sort by time modified (most recently modified first) before sorting the operands by lexicographical order.
+
+> > `ls -Glp`: Displays the colorized and long format listing and writes a slash (`/') after each filename if that file is a directory.
+
 
 ---
 
