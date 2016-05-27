@@ -36,6 +36,7 @@ b = [2, 3, 4]
 a + b
 ```
 >> sets are more efficient to find an element because they are hashable.
+
 ---
 
 ###Q3. Lambda Function
