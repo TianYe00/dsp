@@ -76,6 +76,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > construct argument list(s) and execute utility
+
 > > find /path -type f -print | xargs rm
 
  
