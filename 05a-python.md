@@ -56,9 +56,20 @@ sorted(a, key = lambda x: x.lower())
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result >> of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.
+>> List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.
 
+>> Compared with `map` and `filter`, list comprehensions are more concise and readable.
 
+```python
+num = range(10)
+doubled_odds1 = [n * 2 for n in num if n % 2 == 1]
+doubled_odds2 = map(lambda n: n * 2, filter(lambda n: n % 2 == 1, num))
+# set comprehension
+doubled_odds3 = {n * 2 for n in num if n % 2 == 1}
+# dictionary comprehension
+num_t = zip(num, num)
+doubled_odds4 = {key: value for (key, value) in num_t}
+```
 
 
 ---
