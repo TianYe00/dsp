@@ -15,7 +15,8 @@ def match_ends(words):
     >>> match_ends(['aaa', 'be', 'abc', 'hello'])
     1
     """
-    raise NotImplementedError
+    results = [item for item in words if (len(item) > 1) and (item[0] == item[-1])]
+    return len(results)
 
 
 def front_x(words):
@@ -32,8 +33,13 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
-    raise NotImplementedError
-
+    words.sort()
+    x_ind = [i for i in range(len(words)) if words[i][0] == 'x']
+    if len(x_ind) > 0:
+        for a in x_ind:
+            words = [words[a]] + words  #careful about words[a], we need to convert string to list first.
+            del words[a + 1]
+    return words
 
 def sort_last(tuples):
     """
