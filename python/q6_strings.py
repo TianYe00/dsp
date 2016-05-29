@@ -88,7 +88,7 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    return ' '.join([a, b])
 
 
 def verbing(s):
@@ -105,7 +105,12 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    if len(s) >= 3:
+        if s[-3:] == 'ing':
+            s += 'ly'
+        else:
+            s += 'ing'
+    return s
 
 
 def not_bad(s):
@@ -125,8 +130,23 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
-
+    from fnmatch import fnmatch
+    ss = s.split(' ')
+    try:
+        not_ind = next(i for i in range(len(ss)) if ss[i] == 'not')
+    except:
+        return s
+    try:
+        bad_ind = next(i for i in range(len(ss)) if fnmatch(ss[i], 'bad*'))
+    except:
+        return s
+    if not_ind < bad_ind:
+        ss[not_ind] = 'good'
+        if len(ss[bad_ind]) > 3:
+            ss[not_ind] += ss[bad_ind][-1]
+        del ss[(not_ind + 1):(bad_ind + 1)]
+        return ' '.join(ss)
+    return s
 
 def front_back(a, b):
     """
@@ -144,4 +164,34 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    a_m, a_r = divmod(len(a), 2)
+    b_m, b_r = divmod(len(b), 2)
+    if a_r == 0:
+        if a_m == 0:
+            a_f = ''
+            a_b = ''
+        else:
+            a_f = a[:a_m]
+            a_b = a[-a_m:]
+    else:
+        if a_m == 0:
+            a_f = a
+            a_b = ''
+        else:
+            a_f = a[:(a_m + 1)]
+            a_b = a[-a_m:]
+    if b_r == 0:
+        if b_m == 0:
+            b_f = ''
+            b_b = ''
+        else:
+            b_f = b[:b_m]
+            b_b = b[-b_m:]
+    else:
+        if b_m == 0:
+            b_f = b
+            b_b = ''
+        else:
+            b_f = b[:(b_m + 1)]
+            b_b = b[-b_m:]
+    return a_f + b_f + a_b + b_b
