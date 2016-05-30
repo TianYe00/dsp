@@ -74,7 +74,11 @@ def remove_adjacent(nums):
     >>> remove_adjacent([])
     []
     """
-    raise NotImplementedError
+    nums_diff = [x-y for x,y in zip (nums[1:], nums[:-1])]
+    diff_ind = [i for i in range(len(nums_diff)) if nums_diff[i] == 0]
+    for a in range(len(diff_ind)):
+            del nums[diff_ind[a] - a]
+    return nums
 
 
 def linear_merge(list1, list2):
