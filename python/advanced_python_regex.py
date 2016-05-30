@@ -27,3 +27,7 @@ print(list(emails))
 #Q4
 import re
 emails_domain = emails.apply(lambda a: a.replace(re.search("[\w.]+@", a).group(), ''))
+print(emails_domain.unique())
+
+#Alternative
+emails_domain = emails.apply(lambda a: a[(a.find('@') + 1):])
