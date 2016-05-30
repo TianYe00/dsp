@@ -11,7 +11,7 @@ import csv
 import pandas as pd
 
   def read_data(data):
-    return pd.read_csv(data, index_col = 0)
+    return pd.read_csv('data', index_col = 0)
     
   def get_team_min(parsed_data):
     diff = abs(parsed_data['Goals'] - parsed_data['Goals Allowed'])
