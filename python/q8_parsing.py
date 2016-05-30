@@ -8,9 +8,19 @@
 
 
 import csv
+import pandas as pd
 
   def read_data(data):
-   # COMPLETE THIS FUNCTION
+    return pd.read_csv(data, index_col = 0)
+    
+  def get_team_min(parsed_data):
+    diff = abs(parsed_data['Goals'] - parsed_data['Goals Allowed'])
+    min_score = diff.min()
+    team = [i for i in diff.index if diff[i] == min_score]
+    for a in team:
+      print(a, ' has the smallest difference', min_score,'in ‘for’ and ‘against’ goals.')
+    
+  
 
   def get_min_score_difference(self, parsed_data):
     # COMPLETE THIS FUNCTION
