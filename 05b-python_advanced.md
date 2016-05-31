@@ -113,7 +113,7 @@ Print the first 3 key and value pairs of the dictionary:
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> [('Susan', 'Ellenberg'), ('Alisa', 'Stephens'), ('J.', 'Landis'), ('Warren', 'Bilker'), ('Nandita', 'Mitra'), ('Pamela', 'Shaw'), ('Mingyao', 'Li'), ('Justine', 'Shults'), ('Wei', 'Yang'), ('Yimei', 'Li'), ('Dawei', 'Xie'), ('Hongzhe', 'Li'), ('A.', 'Localio'), ('Rebecca', 'Hubbard'), ('Jason', 'Roy'), ('Benjamin', 'French'), ('Phyllis', 'Gimotty'), ('Rui', 'Xiao'), ('Kathleen', 'Propert'), ('Wensheng', 'Guo'), ('Mary', 'Sammel'), ('Wei-Ting', 'Hwang'), ('Rui', 'Feng'), ('Marshall', 'Joffe'), ('Haochang', 'Shou'), ('Jinbo', 'Chen'), ('Mary', 'Putt'), ('Scarlett', 'Bellamy'), ('Russell', 'Shinohara'), ('Jonas', 'Ellenberg'), ('Matthew', 'Bryan'), ('Andrea', 'Troxel'), ('Sharon', 'Xie'), ('Yenchih', 'Hsu'), ('Michelle', 'Ross'), ('Knashawn', 'Morales'), ('Sarah', 'Ratcliffe')]
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
