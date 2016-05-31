@@ -113,7 +113,43 @@ Print the first 3 key and value pairs of the dictionary:
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> [('Susan', 'Ellenberg'), ('Alisa', 'Stephens'), ('J.', 'Landis'), ('Warren', 'Bilker'), ('Nandita', 'Mitra'), ('Pamela', 'Shaw'), ('Mingyao', 'Li'), ('Justine', 'Shults'), ('Wei', 'Yang'), ('Yimei', 'Li'), ('Dawei', 'Xie'), ('Hongzhe', 'Li'), ('A.', 'Localio'), ('Rebecca', 'Hubbard'), ('Jason', 'Roy'), ('Benjamin', 'French'), ('Phyllis', 'Gimotty'), ('Rui', 'Xiao'), ('Kathleen', 'Propert'), ('Wensheng', 'Guo'), ('Mary', 'Sammel'), ('Wei-Ting', 'Hwang'), ('Rui', 'Feng'), ('Marshall', 'Joffe'), ('Haochang', 'Shou'), ('Jinbo', 'Chen'), ('Mary', 'Putt'), ('Scarlett', 'Bellamy'), ('Russell', 'Shinohara'), ('Jonas', 'Ellenberg'), ('Matthew', 'Bryan'), ('Andrea', 'Troxel'), ('Sharon', 'Xie'), ('Yenchih', 'Hsu'), ('Michelle', 'Ross'), ('Knashawn', 'Morales'), ('Sarah', 'Ratcliffe')]
+>> [('Scarlett', 'Bellamy'),
+ ('Warren', 'Bilker'),
+ ('Matthew', 'Bryan'),
+ ('Jinbo', 'Chen'),
+ ('Susan', 'Ellenberg'),
+ ('Jonas', 'Ellenberg'),
+ ('Rui', 'Feng'),
+ ('Benjamin', 'French'),
+ ('Phyllis', 'Gimotty'),
+ ('Wensheng', 'Guo'),
+ ('Yenchih', 'Hsu'),
+ ('Rebecca', 'Hubbard'),
+ ('Wei-Ting', 'Hwang'),
+ ('Marshall', 'Joffe'),
+ ('J.', 'Landis'),
+ ('Mingyao', 'Li'),
+ ('Yimei', 'Li'),
+ ('Hongzhe', 'Li'),
+ ('A.', 'Localio'),
+ ('Nandita', 'Mitra'),
+ ('Knashawn', 'Morales'),
+ ('Kathleen', 'Propert'),
+ ('Mary', 'Putt'),
+ ('Sarah', 'Ratcliffe'),
+ ('Michelle', 'Ross'),
+ ('Jason', 'Roy'),
+ ('Mary', 'Sammel'),
+ ('Pamela', 'Shaw'),
+ ('Russell', 'Shinohara'),
+ ('Haochang', 'Shou'),
+ ('Justine', 'Shults'),
+ ('Alisa', 'Stephens'),
+ ('Andrea', 'Troxel'),
+ ('Rui', 'Xiao'),
+ ('Dawei', 'Xie'),
+ ('Sharon', 'Xie'),
+ ('Wei', 'Yang')]
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
