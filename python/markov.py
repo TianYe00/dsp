@@ -29,6 +29,7 @@ import random
 def skip_gutenberg_header(fp):
     """Reads from fp until it finds the line that ends the header.
     fp: open file object
+    The python is lazy. It never go back an reread the contents. So this function can let us skip the Gutenberg header.
     """
     for line in fp:
         if line.startswith('*END*THE SMALL PRINT!'):
@@ -55,8 +56,10 @@ class Markov:
         order: integer number of words in the prefix
         Returns: map from prefix to list of possible suffixes.
         """
-        fp = open(filename)
+        fp = open(filename)   #type is _io.TextIOWrapper
+        ```If the txt has Gutenberg header
         skip_gutenberg_header(fp)
+        ```
 
         for line in fp:
             for word in line.rstrip().split():
@@ -103,7 +106,7 @@ class Markov:
             start = shift(start, word)
 
 
-def main(script, filename='emma.txt', n=100, order=2):
+def main(script, filename, n=100, order=2):
     try:
         n = int(n)
         order = int(order)
