@@ -73,4 +73,4 @@ What graphical editor will you use? How did you make your decision? What are som
 >> Vim has a lot of useful shortcuts, especially in the normal mode.
 >> I used the vimrc writen by [Amir Salihefendic](https://github.com/amix/vimrc).
 
- 
+
