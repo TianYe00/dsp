@@ -46,7 +46,7 @@ cross-platform.
 
 
 
->> Python 3, because it is up to date and I believe other platforms which are still using Python 2 will update soon.
+>> Python 3, because it is up to date and other platforms which are still using Python 2 will update soon.
 
 
 
