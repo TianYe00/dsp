@@ -21,7 +21,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > `cut`: cut a part of a file
 
-> > `man`: help info
+> > `man`: help info 
 
 > > `&`: execute programs in the background
 
