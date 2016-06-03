@@ -57,9 +57,9 @@ class Markov:
         Returns: map from prefix to list of possible suffixes.
         """
         fp = open(filename)   #type is _io.TextIOWrapper
-        ```If the txt has Gutenberg header
+        """If the txt has Gutenberg header
         skip_gutenberg_header(fp)
-        ```
+        """
 
         for line in fp:
             for word in line.rstrip().split():
