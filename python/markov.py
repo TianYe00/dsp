@@ -93,7 +93,7 @@ class Markov:
         start = random.choice(list(self.suffix_map.keys()))
 
         for i in range(n):
-            suffixes = self.suffix_map.get(start, None)
+            suffixes = self.suffix_map.get(start, None)   #If there is no key then return None.
             if suffixes == None:
                 # if the prefix isn't in map, we got to the end of the
                 # original text, so we have to start again.
