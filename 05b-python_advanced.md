@@ -12,7 +12,7 @@ The data file represents the [Biostats Faculty List at University of Pennsylvani
 
 This data is available in this file:  [faculty.csv](python/faculty.csv)
 
---- 
+---  
 
 ###Part I - Regular Expressions  
 
