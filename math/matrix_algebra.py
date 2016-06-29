@@ -41,5 +41,6 @@ np.dot(B, A.T)
 np.dot(B, C)
 np.dot(C, B)
 matrix_power(B, 4)
+# B ** 4
 np.dot(A, A.T)
 np.dot(D.T, D)
